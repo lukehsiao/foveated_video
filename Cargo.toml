@@ -3,7 +3,7 @@ name = "foveated_video"
 version = "0.1.0"
 authors = ["Luke Hsiao <lwhsiao@stanford.edu>"]
 edition = "2018"
-description = "A simple CLI tool for setting Netlify DNS records."
+description = "A simple CLI tool for testing foveated video distortions."
 repository = "https://github.com/lukehsiao/foveated_video"
 readme = "README.md"
 license = "Apache-2.0 OR MIT"
@@ -33,3 +33,7 @@ maintenance = { status = "experimental" }
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+failure = "0.1.6"
+log = "0.4.8"
+pretty_env_logger = "0.3.1"
+structopt = "0.3.3"
